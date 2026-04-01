@@ -24,19 +24,13 @@ Country
 🗂️ Structure du Dépôt
 
 ecommerce-pyspark-bigdata/
-│
-├── notebook/
-│   └── Projet_Pyspark_VF.ipynb        # Notebook principal (Google Colab / Jupyter)
-│
-├── data/
-│   └── Online_Retail.csv              # Jeu de données source (voir lien ci-dessous)
-│
-├── outputs/
-│   ├── rfm_segments.csv               # Export des segments RFM par client
-│   └── model_metrics.txt              # Métriques d'évaluation du modèle supervisé
-│
-├── requirements.txt
-└── README.md
+├── notebook/         → déposez votre .ipynb ici
+├── data/             → créez le dossier (vide, le .gitignore exclut les CSV)
+├── slides/           → déposez vos slides ici
+├── outputs/          → pour les exports CSV et métriques
+├── README.md         ← fichier fourni
+├── requirements.txt  ← fichier fourni
+└── .gitignore        ← fichier fourni
 
 📋 Données
 
